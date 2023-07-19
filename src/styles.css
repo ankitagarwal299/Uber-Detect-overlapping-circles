@@ -1,0 +1,16 @@
+.container {
+  font-family: sans-serif;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+.circle {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  opacity: 0.5;
+
+  transform: translate(-50%, -50%);
+}
